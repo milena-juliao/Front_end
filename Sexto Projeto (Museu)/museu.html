@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+
+	<!--Estilo do site-->
+	<link rel="stylesheet" type="text/css" href="CSS/estilo_museu.css">
+
+	<!--Shiv-->
+		<!--[if lt IE 9]>
+			<script src="JS/shiv.js"></script>
+		<![endif]-->
+
+	<!--Normalize-->
+		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+
+</head>
+
+<body>
+
+	<!--INÍCIO CONTAINER-->
+	<div id="container">
+
+		<!--CABEÇALHO-->
+		<header>
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>
+			</div>
+
+			<!--BARRA DE NAVEGAÇÃO-->
+				<nav>
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">EXPOSIÇÕES</a></li>
+						<li><a href="">PESQUISA</a></li>
+						<li><a href="">ACERVO</a></li>
+						<li><a href="">VÍDEOS</a></li>
+						<li><a href="">FOTOS</a></li>
+						<li><a href="">CONTATO</a></li>
+					</ul>
+				</nav>
+			<!--FIM BARRA DE NAVEGAÇÃO-->
+		</header>
+		<!--FIM CABEÇALHO-->
+
+		<!--PRINCIPAL-->
+			<div id="principal">
+
+				<!--CONTEÚDO-->
+				<div id="conteudo">
+					<section id="capa">
+						<img src="img/museu.png">
+					</section>
+
+					<section id="postagens">
+						<article id="video">
+							<h3>Vídeo: conheça o Museu!</h3>
+							<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</article>
+
+						<article id="mapa">
+							<h3>Mapa: encontre o museu!</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7628869.170528992!2d-50.69535060097797!3d-20.991283206254707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1617041482543!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</article>
+
+						<article id="exposicoes">
+							<h3>Exposições</h3>
+							<ul>
+								<li>
+									<a href="">Preguiça Gigante</a>
+								</li>
+								<li>
+									<a href="">Preguiça Gigante</a>
+								</li>
+								<li>
+									<a href="">Preguiça Gigante</a>
+								</li>
+								<li>
+									<a href="">Preguiça Gigante</a>
+								</li>
+								<li>
+									<a href="">Preguiça Gigante</a>
+								</li>
+								<li>
+									<a href=""><strong>Veja mais..</strong></a>
+								</li>
+							</ul>
+						</article>
+
+						<article id="historia">
+							<h3>200 anos de história</h3>
+							<p>
+								is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.is simply dummy text of the printing and typesetting industry.
+							</p>
+							<a href=""><strong>Leia mais..</strong></a>
+						</article>
+					</section>
+				</div>
+				<!--FIM CONTEÚDO-->
+				
+				<!--BARRA LATERAL-->
+				<aside>
+					<section id="depoimento">
+						<img src="img/depoimento.png">
+					</section>
+
+					<!--VISITA-->
+					<section id="visita">
+						<h4>Faça uma visita!</h4>
+						<form>
+							<fieldset>
+								<legend>Selecione uma data:</legend>
+
+								<label for="data">Data</label>
+								<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+								<br>
+
+								<label for="pessoas">Quantidade de pessoas:</label>
+								<input style="width: 25px" class="campo" type="text" id="pessoas" value="1">
+							</fieldset>
+
+							<input class="botao" type="submit" value="Verificar Disponibilidade">
+						</form>
+					</section>
+					<!--FIM VISITA-->
+
+					<!--GALERIA-->
+					<section id="galeria">
+						<h4>Galeria de fotos</h4>
+
+						<a href=""><img src="img/imagem1.jpg" height="93" width="93"></a>
+						
+						<a href=""><img src="img/imagem2.jpg" height="93" width="93"></a>
+
+						<a href=""><img src="img/imagem3.jpg" height="93" width="93"></a>
+
+						<a href=""><img src="img/imagem4.jpg" height="93" width="93"></a>
+					</section>
+					<!--FIM GALERIA-->
+
+				</aside>
+				<!--FIM BARRA LATERAL-->
+
+				<!--RODAPÉ-->
+				<footer>
+					<p>
+						<a href="">HOME</a>
+						<a href="">EXPOSIÇÕES</a>
+						<a href="">PESQUISA</a>
+						<a href="">ACERVO</a>
+						<a href="">VÍDEOS</a>
+						<a href="">FOTOS</a>
+						<a href="">CONTATO</a>
+					</p>
+					
+					<p>
+						2019 <a href="">Museu Nacional</a> -Todos os direitos reservados.
+					</p>
+				</footer>
+
+				<!--FIM RODAPÉ-->
+				
+			</div>
+			<!--FIM PRINCIPAL-->
+		
+	</div>
+	<!--FIM CONTAINER-->
+
+</body>
+
+</html>

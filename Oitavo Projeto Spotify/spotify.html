@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS Pasta
+    <link rel="stylesheet" href="../Bootstrap 4.1.3/css/bootstrap.min.css">-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- HTML5Shiv -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo_spotify.css">
+
+    <title>Música para todos - Spotify</title>
+    <link rel="icon" href="../Oitavo Projeto Spotify/imagens/favicon.png"> <!--usamos o rel icon para colocar o ícone do site junto com o título da aba-->
+  </head>
+  <body>
+<!--CABEÇALHO-->
+    <header>
+      <nav class="transparente navbar navbar-expand-md navbar-light fixed-top justify-content-end">
+
+<!-------CONTAINER-->
+        <div class="container">
+<!---------LOGO-->
+          <a href="spotify.html" class="navbar-brand">
+            <img src="../Oitavo Projeto Spotify/imagens/spotify.svg" width="142">
+          </a>
+        
+
+<!-------NAVEGAÇÃO-->
+
+  <!-----------HAMBÚRGUER------------>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+  <!-----------HAMBÚRGUER------------>
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Premium</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">Ajuda</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">Baixar</a>
+                </li>
+
+                <li class="nav-item divisor"></li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">Inscrever-se</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">Entrar</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+<!------FIM DO CONTAINER-->
+      </nav>
+    </header>
+<!----------------------------------------------------->
+
+<!--CAPA INICIAL-->
+    <section id="home" class="d-flex"><!--tornei a div inteira em flex para poder centralizar os textos depois das modificações no html, body, #home-->
+<!----CONTAINER-->
+      <div class="container align-self-center"><!--centralizei verticalmente a div que contém os textos-->
+        <div class="row">
+          <div class="capa col-md-12"><!--centralizei o texto horizontalmente através da class capa no css-->
+
+          <!----CAROUSEL-->
+            <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <h1>Música para todos</h1>
+
+                  <a href="" class="btn btn-lg btn-custom btn-roxo">Aproveite o Spotify free por 30 dias</a><!--utilizamos o btn-custom para dizer que iremos formatá-lo da forma que queremos-->
+
+                  <a href="" class="btn btn-lg btn-custom btn-branco">Obter Spotify Premium</a>
+                </div>                
+
+                <div class="carousel-item">
+                  <h1>As melhores rádios</h1>
+
+                  <a href="" class="btn btn-lg btn-custom btn-branco"><i class="fas fa-music"></i> Ouça agora</a>
+                </div>
+
+              </div>
+
+              <!----CONTROLES-->
+                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                  <i class="fas fa-angle-left fa-3x"></i>
+                </a>
+
+                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                  <i class="fas fa-angle-right fa-3x"></i>
+                </a>
+
+            </div>
+          <!----CAROUSEL-->
+
+          </div>
+        </div>
+      </div>
+<!----FIM CONTAINER-->    
+    </section>
+<!----------------------------------------------------->
+
+<!--CONTEÚDO-->
+<!---SEÇÃO 1-->
+    <section id="servicos">
+<!----CONTAINER-->
+      <div class="container">
+        <div class="row">
+<!--------IMAGENS-->
+          <div class="col-md-6">
+            <div class="row albuns">
+              <div class="col-md-6">
+                <img src="../Oitavo Projeto Spotify/imagens/img1.jpg" class="img-fluid d-none d-md-block"><!--d-none d-md-block usei para que quando um dispositivo for menor que um médio as imagens sumam da tela-->
+              </div>
+              <div class="col-md-6">
+                <img src="../Oitavo Projeto Spotify/imagens/img2.jpg" class="img-fluid d-none d-md-block">
+              </div>
+            </div>
+      <!---imagens de baixo-->
+            <div class="row albuns">
+              <div class="col-md-6">
+                <img src="../Oitavo Projeto Spotify/imagens/img3.jpg" class="img-fluid d-none d-md-block">
+              </div>
+              <div class="col-md-6">
+                <img src="../Oitavo Projeto Spotify/imagens/img4.jpg" class="img-fluid d-none d-md-block">
+              </div>
+            </div>
+          </div>
+
+
+<!--------FIM IMAGENS-->
+
+<!--------TEXTOS-->
+          <div class="col-md-6">
+
+            <h2>O que o Spotify tem?</h2>
+
+            <h3>Músicas</h3>
+            <p>O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+
+            <h3>Playlists</h3>
+            <p>No Spotify você encontra uma playlist para cada momento.Todas feitas por fanáticos e especialistas da música.</p>
+
+            <h3>Últimos lançamentos</h3>
+            <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no top 50.</p>
+
+          </div>
+<!--------FIM TEXTOS-->
+        </div>
+      </div>
+<!----FIM CONTAINER--> 
+    </section>
+
+<!---SEÇÃO 2-->
+    <section id="recursos">
+<!----CONTAINER-->
+      <div class="container">
+        <div class="row">
+<!--------TEXTOS-->
+          <div class="col-md-4">
+
+            <h2>Fácil</h2>
+
+            <h3>Buscar</h3>
+            <p>Já sabe o que quer escutar? Basta procurar e apertar o play.</p>
+
+            <h3>Navegar</h3>
+            <p>Veja novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+
+            <h3>Descobrir</h3>
+            <p>Curta músicas novas e outras nem tão novas assim mas que iram aumentar seu repertório musical.</p>
+
+          </div>
+<!--------FIM TEXTOS-->
+
+<!--------IMAGENS-->
+          <div class="col-md-8">
+            <div class="row rotacionar">
+              <div class="col-md-6">
+                <img src="../Oitavo Projeto Spotify/imagens/iphone1.png" class="img-fluid d-none d-md-block"><!--d-none d-md-block usei para que quando um dispositivo for menor que um médio as imagens sumam da tela-->
+              </div>
+              <div class="col-md-6">
+                <img src="../Oitavo Projeto Spotify/imagens/iphone2.png" class="img-fluid d-none d-md-block">
+              </div>
+            </div>
+<!--------FIM IMAGENS-->
+        </div>
+      </div>
+<!----FIM CONTAINER--> 
+    </section>
+<!----------------------------------------------------->
+
+<!--RODAPÉ-->
+    <footer>
+      <div class="container">
+        <div class="row">
+<!--------LOGO-->
+          <div class="logo col-md-2">
+            <img src="../Oitavo Projeto Spotify/imagens/spotify.svg" width="150">
+          </div>
+<!--------FIM LOGO-->
+
+<!--------MENU VERTICAL-->
+          <div class="col-md-2">
+            <h4 class="vertical">COMPANY</h4>
+            <ul class="navbar-nav">
+              <li>
+                <a href="">Sobre</a>
+              </li>
+
+              <li>
+                <a href="">Empregos</a>
+              </li>
+
+              <li>
+                <a href="">Imprensa</a>
+              </li>
+
+              <li>
+                <a href="">Novidades</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2">
+            <h4 class="vertical">COMUNIDADES</h4>
+            <ul class="navbar-nav">
+              <li>
+                <a href="">Artistas</a>
+              </li>
+
+              <li>
+                <a href="">Desenvolvedores</a>
+              </li>
+
+              <li>
+                <a href="">Marcas</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2">
+            <h4 class="vertical">LINKS ÚTEIS</h4>
+            <ul class="navbar-nav">
+              <li>
+                <a href="">Ajuda</a>
+              </li>
+
+              <li>
+                <a href="">Presentes</a>
+              </li>
+
+              <li>
+                <a href="">Player da Web</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <a href="">
+                  <img src="../Oitavo Projeto Spotify/imagens/facebook.png">
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="../Oitavo Projeto Spotify/imagens/twitter.png">
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img src="../Oitavo Projeto Spotify/imagens/instagram.png">
+                </a>
+              </li>
+            </ul>
+          </div>
+<!--------FIM MENU VERTICAL-->
+        </div>
+      </div>
+    </footer>
+<!----------------------------------------------------->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
