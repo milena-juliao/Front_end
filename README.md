@@ -5,6 +5,6 @@ Neste repositório se encontram projetos que considerei mais interessantes, volt
 
 -Sexto Projeto(Museu) : exercício de criação de site para um museu com a inclusão de vídeo e mapa;
 
--Sétimo Projeto(Finans) : exercício de criação de site para uma empresa de finaças;
+-Sétimo Projeto(Finans) : exercício de criação de site para uma empresa de finanças;
 
 -Oitavo Projeto(Spotify): exercício de criação de um site de músicas que utiliza bootstrap.
